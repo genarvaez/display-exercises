@@ -73,3 +73,18 @@
 .caja.tres, .caja.cuatro{
 	display: inline-block;
 }
+.home{
+	text-align: center;
+	background-color: black;
+}
+.index{
+	margin: 10px;
+	text-decoration: none;
+	color: black;
+	background-color: #FFBF00;
+	padding: 40px;
+	display: block;
+}
+.home h1{
+	color: white;
+}
