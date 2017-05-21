@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto'
+}
+/*EJERCICIO UNO*/
+.elemento-uno, .elemento-ultimo{
+	background-color: yellow;
+	padding: 40px 0;
+}
+.elemento-medio{
+	background-color: red;
+	border: 1px solid green;
+	padding: 40px 0;
+}
+.elemento-ultimo{
+	text-transform: uppercase;
+}
+/*EJERCICIO DOS*/
+
+.ejercicio-dos .elemento-uno, .ejercicio-dos .elemento-ultimo{
+	background-color: yellow;
+	padding: 40px 0;
+	margin-bottom: 20px;
+	width: 30%;
+	margin: 0 auto;
+}
+.ejercicio-dos .elemento-medio{
+	background-color: red;
+	border: 1px solid green;
+	padding: 40px 0;
+	margin-bottom: 20px;
+	width: 30%;
+	margin: 20px auto;
+}
+.elemento-ultimo{
+	text-transform: uppercase;
+}
+/*EJERCICIO TRES*/
+.ejercicio-tres>p{
+	display: inline-block;
+	padding: 10px;
+}
+/*EJERCICIO CUATRO*/
+.ejercicio-cuatro>p{
+	display: inline-block;
+	width: 200px;
+}
+/*EJERCICIO CINCO*/
+.ejercicio-cinco{
+	margin: 5px;
+}
+.ejercicio-cinco>.caja {
+	background-color: coral;
+	height: 100px;
+	width: 100px;
+	margin: 10px;
+	border: 2px solid red;
+}
+.caja-dos.caja{
+	width: 350px;
+	height: 120px;
+	background-color: pink;
+}
+.caja.uno{
+	background-color: coral;
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	border: 2px solid red;
+	margin: 10px 5px 10px 5px;
+}
+.caja.tres, .caja.cuatro{
+	display: inline-block;
+}
